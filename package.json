@@ -8,6 +8,7 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "element-ui": "^1.1.2",
     "vue": "^2.1.8",
     "vue-router": "^2.1.1"
