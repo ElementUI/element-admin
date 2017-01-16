@@ -1,0 +1,38 @@
+{
+  "name": "element-admin",
+  "description": "A Vue.js project",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server -d --inline --hot --env.dev",
+    "build": "rimraf dist && webpack -p --hide-modules"
+  },
+  "dependencies": {
+    "element-ui": "^1.1.2",
+    "vue": "^2.1.8",
+    "vue-router": "^2.1.1"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "buble-loader": "^0.4.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.12.2",
+    "eslint-config-elemefe": "^0.1.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-vue": "^1.0.0",
+    "extract-text-webpack-plugin": "beta",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.24.1",
+    "postcss-loader": "^1.2.1",
+    "postcss-salad": "^1.0.8",
+    "rimraf": "^2.5.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "vue-loader": "^10.0.0",
+    "vue-template-compiler": "^2.1.8",
+    "webpack": "beta",
+    "webpack-dev-server": "beta"
+  }
+}
